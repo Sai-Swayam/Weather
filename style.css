@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #ebeaeb;
+    font-family: Hubot-Sans;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp {
+    font-size: 7em;
+    font-family: mona-sans;
+    /* border: 1px solid black; */
+    padding: 1.5rem;
+}
+
+.city {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.date {
+    padding: 1rem;
+    font-size: 0.88rem;
+    font-weight: 350;
+}
+
+.city-search {
+    /* background-color: red; */
+    
+}
+
+
+button {
+    margin: 1.3rem;
+    background-color: #ffffff00;
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    border: 0;
+    outline: 1px solid rgba(0, 0, 0, 0.245);
+}
+
+#search-bar {
+    margin: 2rem 0 2rem 2rem;
+    font-size: 1.2rem;
+    background-color: #ffffff00;
+    border: 0;
+    outline: 1px solid rgba(0, 0, 0, 0.245);
+    padding: .5em;
+}
